@@ -7,6 +7,6 @@ public class Orange extends Citrus{
     }
     public void describe(){
         super.describe();
-        System.out.println("SweetnessLevel: " +sweetnessLevel);
+        System.out.print("SweetnessLevel: " +sweetnessLevel);
     }
 }

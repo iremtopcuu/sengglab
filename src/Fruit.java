@@ -10,6 +10,6 @@ public class Fruit {
         return name + " - " + calories + " kcal ";
     }
     public void describe(){
-        System.out.println("this is a fruit item : " + getInfo());
+        System.out.print("this is a fruit  : " + getInfo());
     }
 }
