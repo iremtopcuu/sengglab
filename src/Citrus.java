@@ -1,5 +1,5 @@
 public class Citrus extends Fruit{
-    private double vitaminCmg;
+    protected double vitaminCmg;
 
     public Citrus(String name, double calories, double vitaminCmg) {
         super(name, calories);
