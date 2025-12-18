@@ -1,6 +1,6 @@
 public class Fruit {
-    private String name;
-    private double calories;
+    protected String name;
+    protected double calories;
 
     public Fruit(String name,double calories) {
         this.name = name;
