@@ -1,4 +1,16 @@
-package PACKAGE_NAME;
+public class Drink extends Food{
+    private boolean cold;
 
-public class Drink {
+    public Drink(String name, double price, boolean cold) {
+        super(name, price);
+        this.cold = cold;
+    }
+    public void describe(){
+        System.out.print("drink : " + getInfo());
+        if(cold){
+            System.out.println("cold");
+        }else{
+            System.out.println("hot");
+        }
+    }
 }

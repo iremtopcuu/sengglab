@@ -1,4 +1,16 @@
-package PACKAGE_NAME;
+public class MainDish  extends Food {
+    private boolean spicy;
 
-public class MainDish {
+    public MainDish(String name, double price, boolean spicy) {
+        super(name, price);
+        this.spicy = spicy;
+    }
+    public void describe(){
+        System.out.print("Main dish: " + getInfo());
+        if(spicy){
+            System.out.println("spicy");
+        }else{
+            System.out.println("not spicy");
+        }
+    }
 }
